@@ -64,17 +64,18 @@ body{
 }
 .image{
     
-    flex:0.6;
+    flex:0.4;
     background-image: url('../images/IMG_0633-01-01.jpeg');
-   background-position: -250px -290px;
+   background-position: -280px -290px;
     background-repeat: no-repeat;
-    clip-path:polygon(45% 0, 60% 50%, 45% 100%, 0 100%, 0 0);
+    clip-path: polygon(70% 0, 99% 50%, 70% 100%, 0 100%, 0 0);
 }
 .content{
-    flex:0.4;
+    flex:0.6;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    width: 100%;
 
 
 }
